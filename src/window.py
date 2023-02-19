@@ -65,28 +65,27 @@ class NyarchwizardWindow(Adw.ApplicationWindow):
         p = builder.get_object("page")
         statuspage = builder.get_object("statuspage")
         buttonsBox = builder.get_object("buttonsBox")
-        for button in page['buttons']:
-        	Gtkbutton = Gtk.Button()
-        	button_content = Adw.ButtonContent()
-        	# Set properties
-        	if button["style"] is not None:
-        		Gtkbutton.set_css_classes([button["style"]])
-        	if button["icon"] is not None:
-        		button_content.set_icon_name(button["icon"])
-        		button_content.set_use_underline(True)
-        		button_content.set_label(button["label"])
-        		Gtkbutton.set_child(button_content)
-        	else:
-        		Gtkbutton.set_label(button["label"])
-        	self.commands[Gtkbutton] = button["command"]
-        	Gtkbutton.connect("clicked", self.button_clicked)
-        	buttonsBox.append(Gtkbutton)
+        appcontainer = builder.get_object("appcontainer")
+        for app in page['apps']:
+        	row = Adw.ActionRow()
+        	picture = Gtk.Picture()
+        	button = Gtk.Button()
+        	button.set_css_classes(["suggested-action"])
+        	button.set_label("Install")
+        	self.commands[button] = app["command"]
+        	button.connect("clicked", self.button_clicked)
+        	button.set_margin_top(10)
+        	button.set_margin_bottom(10)
+        	row.set_title(app["title"])
+        	row.set_subtitle(app["subtitle"])
+        	picture.set_resource("/moe/nyarchlinux/wizard/pictures/" + app["icon"] + ".png")
+        	row.add_prefix(picture)
+        	row.add_suffix(button)
+        	appcontainer.add(row)
 
         statuspage.set_icon_name(page["icon"])
         statuspage.set_title(page["title"])
         statuspage.set_description(page["body"])
-        #gtkimage.set_resource("/moe/nyarchlinux/tour/pictures/" + page["icon"] + ".png")
-        # gtkimage.set_pixel_size(page["icon-size"])
         return statuspage
 
     def button_clicked(self, button):
