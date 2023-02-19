@@ -1,0 +1,6 @@
+data/moe.nyarchlinux.wizard.desktop.in
+data/moe.nyarchlinux.wizard.appdata.xml.in
+data/moe.nyarchlinux.wizard.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

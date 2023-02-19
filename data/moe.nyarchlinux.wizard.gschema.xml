@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="nyarchwizard">
+	<schema id="moe.nyarchlinux.wizard" path="/moe/nyarchlinux/wizard/">
+	</schema>
+</schemalist>
