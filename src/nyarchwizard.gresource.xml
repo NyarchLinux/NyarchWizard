@@ -6,5 +6,12 @@
     <file preprocess="xml-stripblanks">carousel_page.ui</file>
     <file>pictures/bottles.png</file>
     <file>pictures/lutris.png</file>
+    <file>pictures/heroic.png</file>
+    <file>pictures/steam.png</file>
+    <file>pictures/texmatch.png</file>
+    <file>pictures/xournalpp.png</file>
+    <file>pictures/onlyoffice.png</file>
+    <file>pictures/libreoffice.png</file>
+    <file>pictures/pdfarranger.png</file>
   </gresource>
 </gresources>

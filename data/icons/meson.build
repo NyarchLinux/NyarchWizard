@@ -24,3 +24,7 @@ install_data (
     'custom-icons/gaming-symbolic.svg',
     install_dir: symbolic_dir
 )
+install_data (
+    'custom-icons/office-symbolic.svg',
+    install_dir: symbolic_dir
+)
