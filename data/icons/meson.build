@@ -28,3 +28,35 @@ install_data (
     'custom-icons/office-symbolic.svg',
     install_dir: symbolic_dir
 )
+install_data (
+    'custom-icons/comunication-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/audio-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/photo-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/video-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/developer-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/notes-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/other-symbolic.svg',
+    install_dir: symbolic_dir
+)
+install_data (
+    'custom-icons/nyarchwitch.svg',
+    install_dir: symbolic_dir
+)

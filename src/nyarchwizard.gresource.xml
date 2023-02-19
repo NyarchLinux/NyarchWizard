@@ -13,5 +13,38 @@
     <file>pictures/onlyoffice.png</file>
     <file>pictures/libreoffice.png</file>
     <file>pictures/pdfarranger.png</file>
+    <file>pictures/discord.png</file>
+    <file>pictures/telegram.png</file>
+    <file>pictures/headlines.png</file>
+    <file>pictures/fractal.png</file>
+    <file>pictures/audacity.png</file>
+    <file>pictures/amberol.png</file>
+    <file>pictures/mousai.png</file>
+    <file>pictures/spotify.png</file>
+    <file>pictures/spot.png</file>
+    <file>pictures/darktable.png</file>
+    <file>pictures/Imageroll.png</file>
+    <file>pictures/gimp.png</file>
+    <file>pictures/krita.png</file>
+    <file>pictures/inkscape.png</file>
+    <file>pictures/kdenlive.png</file>
+    <file>pictures/pitivi.png</file>
+    <file>pictures/obs.png</file>
+    <file>pictures/videotrimmer.png</file>
+    <file>pictures/blender.png</file>
+    <file>pictures/codeoss.png</file>
+    <file>pictures/vscode.png</file>
+    <file>pictures/builder.png</file>
+    <file>pictures/atom.png</file>
+    <file>pictures/meld.png</file>
+    <file>pictures/logseq.png</file>
+    <file>pictures/rnote.png</file>
+    <file>pictures/planner.png</file>
+    <file>pictures/iotas.png</file>
+    <file>pictures/atoms.png</file>
+    <file>pictures/boxes.png</file>
+    <file>pictures/nextcloud.png</file>
+    <file>pictures/syncthing.png</file>
+    <file>pictures/bitwarden.png</file>
   </gresource>
 </gresources>
