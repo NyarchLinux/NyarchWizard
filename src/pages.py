@@ -250,7 +250,7 @@ PAGES = [
 				"title": "Atom",
 				"subtitle": "A hackable text editor for the 21st Century",
 				"icon": "atom",
-				"command": "gnome-software --details io.atom.Atompitivi"
+				"command": "gnome-software --details io.atom.Atom"
 			},
 			{
 				"title": "Meld",
