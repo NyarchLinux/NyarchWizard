@@ -15,7 +15,7 @@
     <file>pictures/pdfarranger.png</file>
     <file>pictures/discord.png</file>
     <file>pictures/telegram.png</file>
-    <file>pictures/headlines.png</file>
+    <file>pictures/giara.png</file>
     <file>pictures/fractal.png</file>
     <file>pictures/audacity.png</file>
     <file>pictures/amberol.png</file>
@@ -47,5 +47,7 @@
     <file>pictures/nextcloud.png</file>
     <file>pictures/syncthing.png</file>
     <file>pictures/bitwarden.png</file>
+    <file>pictures/plots.png</file>
+    <file>pictures/tangram.png</file>
   </gresource>
 </gresources>

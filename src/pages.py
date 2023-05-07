@@ -42,6 +42,12 @@ PAGES = [
 				"icon": "pdfarranger",
 				"command": "gnome-software --details com.github.jeromerobert.pdfarranger"
 			},
+			{
+				"title": "Plots",
+				"subtitle": "Plots makes it easy to visualise mathematical formulae.",
+				"icon": "plots",
+				"command": "gnome-software --details com.github.alexhuntley.Plots"
+			},
 		]
 	},
 	{
@@ -95,10 +101,16 @@ PAGES = [
 				"command": "gnome-software --details org.telegram.desktop"
 			},
 			{
-				"title": "Headlines",
+				"title": "Giara",
 				"subtitle": "Reddit client",
-				"icon": "headlines",
-				"command": "gnome-software --details io.gitlab.caveman250.headlines"
+				"icon": "giara",
+				"command": "gnome-software --details org.gabmus.giara"
+			},
+			{
+				"title": "Tangram",
+				"subtitle": "Tangram is a new kind of browser. It is designed to organize and run your Web applications.",
+				"icon": "tangram",
+				"command": "gnome-software --details re.sonny.Tangram"
 			},
 			{
 				"title": "Fractal",
