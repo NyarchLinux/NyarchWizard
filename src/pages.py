@@ -54,7 +54,7 @@ PAGES = [
 		"icon": "gaming-symbolic",
 		"title": "Gaming",
 		"icon-size": 200,
-		"body": "The best linux softwares for gaming",
+		"body": "The best linux software for gaming",
 		"apps": [
 			{
 				"title": "Steam",
