@@ -49,5 +49,7 @@
     <file>pictures/bitwarden.png</file>
     <file>pictures/plots.png</file>
     <file>pictures/tangram.png</file>
+    <file>pictures/missioncenter.png</file>
+    <file>pictures/cartridges.png</file>
   </gresource>
 </gresources>

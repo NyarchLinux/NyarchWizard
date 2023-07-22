@@ -80,6 +80,12 @@ PAGES = [
 				"icon": "heroic",
 				"command": "gnome-software --details com.heroicgameslauncher.hgl"
 			},
+			{
+				"title": "Cartridges",
+				"subtitle": "Cartridges is a simple game launcher for all of your games.",
+				"icon": "cartridges",
+				"command": "gnome-software --details hu.kramo.Cartridges"
+			},
 		]
 	},
 	{
@@ -99,12 +105,6 @@ PAGES = [
 				"subtitle": "Telegram is an istant messaging application. ",
 				"icon": "telegram",
 				"command": "gnome-software --details org.telegram.desktop"
-			},
-			{
-				"title": "Giara",
-				"subtitle": "Reddit client",
-				"icon": "giara",
-				"command": "gnome-software --details org.gabmus.giara"
 			},
 			{
 				"title": "Tangram",
@@ -322,6 +322,12 @@ PAGES = [
 		"icon-size": 200,
 		"body": "Some more apps you might like",
 		"apps": [
+			{
+				"title": "Mission Center",
+				"subtitle": "Monitor your CPU, Memory, Disk, Network and GPU usage",
+				"icon": "missioncenter",
+				"command": "gnome-software --details io.missioncenter.MissionCenter"
+			},
 			{
 				"title": "Atoms",
 				"subtitle": "Easily manage Linux Chroot and Containers.",
