@@ -51,5 +51,6 @@
     <file>pictures/tangram.png</file>
     <file>pictures/missioncenter.png</file>
     <file>pictures/cartridges.png</file>
+    <file>pictures/vesktop.png</file>
   </gresource>
 </gresources>

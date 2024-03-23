@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=Nyarch Wizard
+Comment=Suggested applications to make your Nyarch experience better
 Exec=nyarchwizard
 Icon=moe.nyarchlinux.wizard
 Terminal=false
 Type=Application
-Categories=GTK;
+Categories=GTK;Documentation;Utility;
 StartupNotify=true

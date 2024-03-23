@@ -95,16 +95,22 @@ PAGES = [
 		"body": "Apps to comunicate and socialize",
 		"apps": [
 			{
+				"title": "Telegram",
+				"subtitle": "Telegram is an istant messaging application. ",
+				"icon": "telegram",
+				"command": "gnome-software --details org.telegram.desktop"
+			},
+			{
 				"title": "Discord",
 				"subtitle": "Discord is a free all in one messaging, voice, and video client. ",
 				"icon": "discord",
 				"command": "gnome-software --details com.discordapp.Discord"
 			},
 			{
-				"title": "Telegram",
-				"subtitle": "Telegram is an istant messaging application. ",
-				"icon": "telegram",
-				"command": "gnome-software --details org.telegram.desktop"
+				"title": "Vesktop",
+				"subtitle": "Snappier Discord app with Vencord and screen sharing support with audio.",
+				"icon": "vesktop",
+				"command": "gnome-software --details dev.vencord.Vesktop"
 			},
 			{
 				"title": "Tangram",
