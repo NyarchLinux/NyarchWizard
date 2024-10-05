@@ -52,5 +52,6 @@
     <file>pictures/missioncenter.png</file>
     <file>pictures/cartridges.png</file>
     <file>pictures/vesktop.png</file>
+    <file>pictures/boxbuddy.png</file>
   </gresource>
 </gresources>

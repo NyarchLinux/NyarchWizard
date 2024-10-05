@@ -114,7 +114,7 @@ PAGES = [
 			},
 			{
 				"title": "Tangram",
-				"subtitle": "Tangram is a new kind of browser. It is designed to organize and run your Web applications.",
+				"subtitle": "Tangram is designed to organize and run your Web applications.",
 				"icon": "tangram",
 				"command": "gnome-software --details re.sonny.Tangram"
 			},
@@ -333,6 +333,12 @@ PAGES = [
 				"subtitle": "Monitor your CPU, Memory, Disk, Network and GPU usage",
 				"icon": "missioncenter",
 				"command": "gnome-software --details io.missioncenter.MissionCenter"
+			},
+			{
+				"title": "BoxBuddy",
+				"subtitle": "Create container images of many different Linux distributions which are nicely integrated",
+				"icon": "boxbuddy",
+				"command": "gnome-software --details io.github.dvlv.boxbuddyrs"
 			},
 			{
 				"title": "Atoms",
