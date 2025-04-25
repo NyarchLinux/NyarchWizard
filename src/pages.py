@@ -84,7 +84,7 @@ PAGES = [
 				"title": "Cartridges",
 				"subtitle": "Cartridges is a simple game launcher for all of your games.",
 				"icon": "cartridges",
-				"command": "gnome-software --details hu.kramo.Cartridges"
+				"command": "gnome-software --details page.kramo.Cartridges"
 			},
 		]
 	},
@@ -309,16 +309,16 @@ PAGES = [
 				"command": "gnome-software --details com.logseq.Logseq"
 			},
 			{
-				"title": "Planner",
+				"title": "Planify",
 				"subtitle": "Never worry about forgetting things again",
 				"icon": "planner",
-				"command": "gnome-software --details com.github.alainm23.planner"
+                "command": "gnome-software --details io.github.alainm23.planify"
 			},
 			{
 				"title": "Iotas",
 				"subtitle": "Simple note taking",
 				"icon": "iotas",
-				"command": "gnome-software --details org.gnome.gitlab.cheywood.Iotas"
+				"command": "gnome-software --details org.gnome.World.Iotas"
 			},
 		]
 	},
