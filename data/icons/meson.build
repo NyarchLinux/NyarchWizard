@@ -13,50 +13,50 @@ install_data(
 )
 symbolic_dir = join_paths(get_option('datadir'), 'icons/hicolor/symbolic/apps')
 install_data (
-    'custom-icons/right-large-symbolic.svg',
+    'custom-icons/wizard-icon-right-large-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/left-large-symbolic.svg',
+    'custom-icons/wizard-icon-left-large-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/gaming-symbolic.svg',
+    'custom-icons/wizard-icon-gaming-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/office-symbolic.svg',
+    'custom-icons/wizard-icon-office-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/comunication-symbolic.svg',
+    'custom-icons/wizard-icon-comunication-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/audio-symbolic.svg',
+    'custom-icons/wizard-icon-audio-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/photo-symbolic.svg',
+    'custom-icons/wizard-icon-photo-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/video-symbolic.svg',
+    'custom-icons/wizard-icon-video-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/developer-symbolic.svg',
+    'custom-icons/wizard-icon-developer-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/notes-symbolic.svg',
+    'custom-icons/wizard-icon-notes-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/other-symbolic.svg',
+    'custom-icons/wizard-icon-other-symbolic.svg',
     install_dir: symbolic_dir
 )
 install_data (
-    'custom-icons/nyarchwitch.svg',
+    'custom-icons/wizard-icon-nyarchwitch.svg',
     install_dir: symbolic_dir
 )

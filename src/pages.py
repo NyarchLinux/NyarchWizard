@@ -1,13 +1,13 @@
 PAGES = [
 	{
-		"icon": "nyarchwitch",
+		"icon": "wizard-icon-nyarchwitch",
 		"title": "Welcome to Nyarch Linux Wizard",
 		"icon-size": 200,
 		"body": "I'm here to show you some useful and interesting Linux apps",
 		"apps": [],
 	},
 	{
-		"icon": "office-symbolic",
+		"icon": "wizard-icon-office-symbolic",
 		"title": "Office",
 		"icon-size": 200,
 		"body": "Choose these programs to work with office files",
@@ -51,7 +51,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "gaming-symbolic",
+		"icon": "wizard-icon-gaming-symbolic",
 		"title": "Gaming",
 		"icon-size": 200,
 		"body": "The best linux software for gaming",
@@ -89,7 +89,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "comunication-symbolic",
+		"icon": "wizard-icon-comunication-symbolic",
 		"title": "Comunication",
 		"icon-size": 200,
 		"body": "Apps to comunicate and socialize",
@@ -127,7 +127,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "audio-symbolic",
+		"icon": "wizard-icon-audio-symbolic",
 		"title": "Audio and Music",
 		"icon-size": 200,
 		"body": "Apps to work with audio files and listen to music",
@@ -165,7 +165,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "photo-symbolic",
+		"icon": "wizard-icon-photo-symbolic",
 		"title": "Image Editing",
 		"icon-size": 200,
 		"body": "Apps to edit images",
@@ -203,7 +203,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "video-symbolic",
+		"icon": "wizard-icon-video-symbolic",
 		"title": "Video Editing",
 		"icon-size": 200,
 		"body": "Apps to edit videos",
@@ -241,7 +241,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "developer-symbolic",
+		"icon": "wizard-icon-developer-symbolic",
 		"title": "Developer Tools",
 		"icon-size": 200,
 		"body": "Useful tools for developers",
@@ -285,7 +285,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "notes-symbolic",
+		"icon": "wizard-icon-notes-symbolic",
 		"title": "Note Taking",
 		"icon-size": 200,
 		"body": "Apps built for note-taking",
@@ -323,7 +323,7 @@ PAGES = [
 		]
 	},
 	{
-		"icon": "other-symbolic",
+		"icon": "wizard-icon-other-symbolic",
 		"title": "Other useful apps",
 		"icon-size": 200,
 		"body": "Some more apps you might like",
