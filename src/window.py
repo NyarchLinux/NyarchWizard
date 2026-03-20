@@ -17,7 +17,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-
+import os
 from gi.repository import Adw
 from gi.repository import Gtk
 from .pages import PAGES
@@ -91,5 +91,28 @@ class NyarchwizardWindow(Adw.ApplicationWindow):
     def button_clicked(self, button):
         	self.background_process(self.commands[button])
 
+    def is_flatpak(self) -> bool:
+        """
+        Check if we are in a flatpak
+
+        Returns:
+            bool: True if we are in a flatpak
+        """
+        if os.getenv("container"):
+            return True
+        return False
+    
+    def get_spawn_command(self) -> list:
+        """
+        Get the spawn command to run commands on the user system
+
+        Returns:
+            list: space diveded command  
+        """
+        if self.is_flatpak():
+            return ["flatpak-spawn", "--host"]
+        else:
+            return []
+    
     def background_process(self, command):
-    	subprocess.Popen(["flatpak-spawn",  "--host"] + command.split())
+    	subprocess.Popen(self.get_spawn_command() + command.split())
